@@ -6,6 +6,7 @@ export enum Routes {
   plainRedux = "/redux",
   reduxSagas = "/reduxSagas",
   reduxToolkit = "/toolkit",
+  exercise = "/exercise",
 }
 
 export function Nav() {

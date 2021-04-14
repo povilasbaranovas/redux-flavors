@@ -8,6 +8,7 @@ import { UseReducerComponent } from "./features/3. UseReducerComponent/UseReduce
 import { PureReduxComponent } from "./features/4. ReduxComponent/ReduxComponent";
 import { Nav, Routes } from "./Nav";
 import { ReduxToolkitComponent } from "./features/6. ReduxToolkitComponent/ReduxToolkitComponent";
+import { ExerciseComponent } from "./features/7. Exercise/ExerciseComponent";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
               </Route>
               <Route path={Routes.reduxToolkit}>
                 <ReduxToolkitComponent />
+              </Route>
+              <Route path={Routes.exercise}>
+                <ExerciseComponent />
               </Route>
             </Switch>
           </header>
