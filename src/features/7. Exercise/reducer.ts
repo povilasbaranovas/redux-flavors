@@ -8,16 +8,22 @@ import {
 } from "./actions";
 
 const initialState: CalculatorState = {
+  values: {
+    firstValue: undefined,
+    secondValue: undefined,
+  },
   inputValue: 0,
   symbol: undefined,
-  result: undefined,
   //???????
 };
 
 export interface CalculatorState {
   inputValue: number;
   symbol?: CalculationSymbol;
-  result?: number;
+  values: {
+    firstValue?: number;
+    secondValue?: number;
+  };
   //???????
 }
 
